@@ -13,9 +13,10 @@ int main() {
                 printf(" ");
             }
         }
-        printf("\n"); // move to next line after finishing row
+        printf("\n");
     }
 
     return 0;
 }
+
 
