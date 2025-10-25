@@ -1,0 +1,37 @@
+
+int main()
+{
+	int dept,subdept;
+	printf("Select your department\n");
+	printf("1. CS(Computer Science)\n");
+	printf("2. EE(Electrical Engineering)\n");
+	printf("Enter your choice\n: ");
+	scanf("%d",&dept);
+	switch(dept)
+	{
+		case 1: //CS Department
+			printf("You selected CS\n");
+			printf("1.Choose your specialization\n");
+			printf("2. CSDS \n");
+			printf("3. CSAI\n");
+			printf("4. CSCY\n");
+			scanf("%d",&subdept);
+			
+			switch(subdept)
+			{
+				case 1:
+					printf("You chose CSDS\n");
+					break;
+				case 2:
+					printf("You chose Department of CSAI\n");
+					break;
+				case 3:
+					printf("You chose Department of CSCY\n");
+					break;
+			
+			}
+			
+	}		
+			
+
+}
