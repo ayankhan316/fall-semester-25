@@ -1,21 +1,32 @@
+
 #include<stdio.h>
-int main()
-{
-	int var1,var2;
-	printf("Enter the value of var1");
-	scanf("%d",&var1);
-	printf("Enter the value of var2");
-	scanf("%d",&var2);
-	
-	if(var1 !=var2){
-		printf("var1 is not equal to var2\n");
-		
-if(var1>var2)
-	printf("var1 is greater than var2\n");
-	else
-	printf("var2 is greater than var1\n");
-	
-	
-		
-	}
+int main(){
+    int hours;
+    float d1,d2,d3,d4,d5,totalDistance,averageSpeed;
+
+    printf("Enter the number of hours car travelled : ");
+    scanf("%d",&hours);
+
+    printf("Enter distance in  hours 1 : ");
+    scanf("%f",&d1);
+
+    printf("Enter distance in  hours 2 : ");
+    scanf("%f",&d2);
+
+    printf("Enter distance in  hours 3 : ");
+    scanf("%f",&d3);
+
+    printf("Enter distance in  hours 4 : ");
+    scanf("%f",&d4);
+
+    printf("Enter distance in  hours 5 : ");
+    scanf("%f",&d5);
+
+    totalDistance=d1+d2+d3+d4+d5;
+    averageSpeed=totalDistance/hours;
+
+    printf("\nTotal Distance=%f\n",totalDistance);
+    printf("\nAverage Speed=%f\n",averageSpeed);
+
+    return 0;
 }
